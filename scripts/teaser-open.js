@@ -1,0 +1,1 @@
+var e=document.querySelector(".teaser__container"),t=e.querySelector(".teaser__play"),o=document.querySelector(".teaser__modal"),n=()=>{e.classList.toggle("teaser__container--modal-open"),o.classList.toggle("teaser__modal--is-open")},a=()=>{t.addEventListener("click",n)};export{a as addTeaserListener};
