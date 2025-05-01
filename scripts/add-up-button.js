@@ -1,0 +1,1 @@
+var t=document.querySelector(".up-button"),o=()=>{window.scrollTo(0,0)},n=()=>{window.scrollY>200?(t.classList.add("up-button--shown"),t.addEventListener("click",o)):(t.classList.remove("up-button--shown"),t.removeEventListener("click",o))},e=()=>{window.addEventListener("scroll",n)};export{e as addScrollListener};
