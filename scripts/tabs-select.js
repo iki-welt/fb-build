@@ -1,0 +1,1 @@
+var e=document.querySelector(".celebrities__tabs-select"),t=document.querySelector(".celebrities__tabs"),s=()=>{e.classList.toggle("celebrities__tabs-select--is-closed"),t.classList.toggle("celebrities__tabs--is-closed")},c=()=>{e&&e.addEventListener("click",s)};export{c as addTabsSelectListener,s as onTabsSelectClick};
