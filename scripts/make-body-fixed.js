@@ -1,0 +1,1 @@
+var t=()=>{let o=window.scrollY;document.body.style.position="fixed",document.body.style.top=`-${o}px`},n=()=>{let o=document.body.style.top;document.body.style.position="",document.body.style.top="",window.scrollTo(0,parseInt(o||"0",10)*-1)};export{t as bodyFixer,n as bodyUnfixer};
